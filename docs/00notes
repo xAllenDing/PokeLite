@@ -1,0 +1,96 @@
+Title page:
+- User will have option to log in 
+- start button to proceed into game after authentication
+
+Starter Page:
+- Three Pokemons
+- Select Card -> View details 
+- User can press X to exit from card or select pokemon after viewing card
+- View card -> select pokemon, proceed game
+
+Battle Page:
+- Pokemon turn -> speed of pokemon
+- User select -> Attack, Items, Swap Pokemon
+  - skills from attack menu
+    - deals damage 
+    - minus hp (increase hp if healing skill)
+    - other player's turn
+
+Post Battle Page:
+- Select card -> view details
+- Option to press X to exit, select card
+  - adds to inventory
+- Next battle
+
+
+React Frontend
+
+Game Engine
+- data 
+  - Pokemon:
+    - names
+    - sprites
+    - Levels
+      - evolution
+      - exp
+    - Type
+    - skills
+    - ability
+    - stats
+      - hp, atk, sp.atk, def, sp.def, spd
+
+  - Items:
+    - Pokeballs
+      - poke, great, ultra, master
+    - TMs
+    - Rare candies
+    - Potions
+
+  - Number of Pokemon in party 
+    - up to 6
+  
+  - Exp gained per battle 
+    - depend on pokemon defeated
+
+  - Damage dealt per skill
+    - depend on resistance(type) and power of skill
+  
+  - Damage healed 
+    - skills
+    - potions
+
+  - Inventory storage
+
+  - Player progress
+    - trainer battle
+    - wild encounter
+
+Components 
+- Login, start button
+- Navbar
+  - List of pokemons
+  - Inventory
+  - exit game button/save
+- Pokemon card
+  - details 
+- Reward card
+  - details
+
+- Battle:
+  - Skills
+  - HP/Lv bar
+  - Menu 
+    - atk, items, swap pokemon
+  - Swap pokemon
+    - List of pokemons to select from 
+
+- Reward
+  - Exp bar 
+    - exp gained
+
+
+Pages 
+- Title Page
+- Selection Page
+- Battle Page
+- Post Battle Page
